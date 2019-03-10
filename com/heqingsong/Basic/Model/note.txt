@@ -1,0 +1,17 @@
+
+
+在包下的每一个.py文件就是一个模块
+
+导入方式：
+
+1、直接导入模块，并重命名
+	eg:	import Basic.Model.myModel as impModel;
+	此时，可以使用impModel.XXX调用 Basic.Model 的方法
+
+2、部分导入
+	eg:	from Basic.Model import myModel
+	
+3、直接导入模块的方法
+	eg:	from Basic.Model.myModel import add, sub, mul, div;
+
+	
