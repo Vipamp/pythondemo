@@ -26,8 +26,6 @@ myFun('Hello', 'world', 'my', 'name', 'is', 'HQS')
 
 
 # 2、可变参数反转
-
-
 def add(x, y):
     return x + y
 

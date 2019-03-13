@@ -48,8 +48,8 @@ for i in "Hello World":
     print(i, end=",")
 
 # 遍历List
-print("\n");
-list = ["C", "C++", "Java", "Python"];
+print("\n")
+list = ["C", "C++", "Java", "Python"]
 for i in list:
     print(i, end=",")
 
@@ -65,6 +65,7 @@ for x in tu:
     print(x, end=',')
 
 # 遍历dict，注意遍历dict时，遍历的元素是dict的key，而不是key-value键值对entry
+# 字典dict和json格式一模一样，表示的是map集合
 print('\n')
 dict = {'name': 'HQS', 'age': 23}
 for key in dict:

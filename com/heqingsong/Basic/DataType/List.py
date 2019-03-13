@@ -38,7 +38,7 @@ print(emptyList)
 #    修改列表，（String和List的区别：String不能根据索引值修改，List可以根据索引值修改）
 list[2] = 'Hello Python!'
 print(list)
-#    如果左边的list里面是一个范围，右边必须是[]或者字符串，否则报错，注意区别
+#    如果左边的list里面是一个范围，右边必须是[]或者字符串，否则报错，两边的list长度没有限制，但必须是list，注意区别
 list[2:5] = ["The End", 1 + 2j]
 print(list)
 list[2:5] = "The End"

@@ -17,7 +17,7 @@ del var1, var2
 '''
     Number的三种数据类型：int，float，complex（复数）
 '''
-intNum = 1;
+intNum = 1
 print(intNum)
 intNum2 = 0xfe  # 十六进制表示整数，也可以采用八进制
 print(intNum)
@@ -44,7 +44,7 @@ print(comNum * comNum2)  # 复数可以直接计算
         整数可以转换为浮点数，浮点数不能转换为整数
 '''
 inputStr = input("请输入一个数字")
-InputInt = int(inputStr)
-print(InputInt)  # 转换为整数
-InputFloat = float(inputStr)
-print(InputFloat)  # 转换为浮点数
+inputInt = int(inputStr)
+print(inputInt)  # 转换为整数
+inputFloat = float(inputStr)
+print(inputFloat)  # 转换为浮点数
